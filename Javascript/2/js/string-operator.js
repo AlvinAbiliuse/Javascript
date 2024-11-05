@@ -1,10 +1,7 @@
 var greeting = "Howdy ";
 var name = "Molly";
 
-console.log(name);
-
+var newGreeting = greeting + name + "!"
 var elGreet = document.getElementById("greeting");
-elGreet.textContent = greeting;
+elGreet.textContent = newGreeting;
 
-var elName = document.getElementById("name");
-elName.textContent = name;
