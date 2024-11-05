@@ -4,6 +4,13 @@ var subtotal = 70;
 var shipping = 7;
 var total = 77;
 
+var greeting = "Howdy ";
+var name = "Molly"
+var message = ", please check your order:";
+
+var elMessage = document.getElementById("message");
+elMessage.textContent = greeting + name + message; 
+
 var elSign = document.getElementById("sign");
 elSign.textContent = sign;
 
