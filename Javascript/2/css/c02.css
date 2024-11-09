@@ -108,6 +108,9 @@ tr td:first-child {
     font-weight: bold;
     padding-right: 20px;}
 
+td {
+	text-align: left;
+	}
 body:before, body:after {
     content: "";
     position: fixed;
