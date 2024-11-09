@@ -1,12 +1,9 @@
 function calculateArea(width, height) {
-	var area = width * height;
-	return area;
+	return width * height;
 }
 
-var wallOne = calculateArea(3, 5);
 var elOne = document.getElementById("wallOne");
-elOne.textContent = wallOne;
+elOne.textContent = calculateArea(3, 5);
 
-var wallTwo = calculateArea(8, 5);
 var elTwo = document.getElementById("wallTwo");
-elTwo.textContent = wallTwo;
+elTwo.textContent = calculateArea(8, 5);
