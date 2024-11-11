@@ -24,5 +24,3 @@ elName.textContent = parkHotel.name;
 
 elRooms = document.getElementById("parkRooms");
 elRooms.textContent = parkHotel.checkAvailability();
-
-
