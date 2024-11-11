@@ -5,3 +5,5 @@ msg += "<h2>screen</h2><p>width:" + window.screen.width + "</p><p>height:" + win
 
 var el = document.getElementById("info");
 el.innerHTML = msg;
+	
+alert("Current page: " + window.location);
