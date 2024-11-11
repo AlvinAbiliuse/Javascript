@@ -1,8 +1,8 @@
 
 var hotel = {
-	hotel.name = "Quay";
-	hotel.rooms = 40;
-	hotel.booked = 15;
+	name: "Quay",
+	rooms: 40,
+	booked: 15,
 };
 
 hotel.gym = true;
@@ -13,7 +13,7 @@ delete hotel.booked;
 var elName = document.getElementById("hotelName");
 elName.textContent = hotel.name;
 
-var elGym = document.getELementById("gym");
+var elGym = document.getElementById("gym");
 elGym.className = '' + hotel.gym;
 
 var elPool = document.getElementById("pool");
