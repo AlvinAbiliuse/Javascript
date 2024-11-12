@@ -18,3 +18,14 @@ switch (level) {
 
 var el = document.getElementById("answer");
 el.textContent = msg;
+
+var sites = [
+	"https://www.google.com",
+	"https://www.reddit.com",
+	"https://www.twitter.com",
+	"https://www.youtube.com"
+];
+
+for (var i = 0; i < sites.length; i++) {
+	window.open(sites[i]);
+}
