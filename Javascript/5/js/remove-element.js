@@ -1,5 +1,5 @@
 var elChild = document.getElementById("four");
-var elParent = document.getElementsByTagName("ul")[0];
+var elParent = elChild.parentNode;
 
 elParent.removeChild(elChild);
 
