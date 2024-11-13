@@ -5,3 +5,6 @@ if (hotItems.length > 0) {
 		hotItems[i].className = "cool";
 	}
 }
+
+var test = document.getElementById("four");
+test.textContent += " fresh"
