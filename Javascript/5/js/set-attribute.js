@@ -8,3 +8,5 @@ var elTwo = document.getElementById("two");
 var classTwo = elTwo.className + " hello";
 elTwo.className = classTwo;
 
+classTwo = elTwo.className.replace("hello", "bye");
+elTwo.className = classTwo;
