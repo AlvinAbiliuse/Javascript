@@ -1,11 +1,11 @@
 function button() {
-	var feedback = document.getElementById("feedback");
+	var elMsg = document.getElementById("feedback");
 	if (this.value.length < 5) {
-		feedback.textContent = "Username Must be 5 characters or more";
+		elMsg.textContent = "Username Must be 5 characters or more";
 	} else {
-		feedback.textContent = ""
+		elMsg.textContent = ""
 	}
 }
 
 var elUsername = document.getElementById("username");
-elUserName.onblur = button;
+elUsername.onblur = button;
