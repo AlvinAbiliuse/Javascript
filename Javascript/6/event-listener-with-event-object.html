@@ -5,16 +5,15 @@
 		<link rel='stylesheet' href='css/c06.css'></link>
 	</head>
 	<body>
-		<div class='page'>
+		<div id='page'>
 			<h1>List King</h1>
-			<h2>User Form</h2>
+			<h2>New Account</h2>
 			<form>
-				<label for='name'>Enter Username:</label>
-				<input type='text' name='name'></input>
-				<div></div>
-				<label for='pass'>Enter Password:</label>
-				<input type='text' name='pass'></input>
-				<div></div>
+				<label for='name'>Create a Username:</label>
+				<input type='text' name='name'><div id='feedback'></div>
+				<label for='pass'>Create a Password:</label>
+				<input type='text' name='pass'><div id='feedback'></div>
+				<input type='submit' value='sign up'>
 			</form>
 		</div>
 		<script src='js/event-listener-with-event-object.js'></script>
