@@ -5,10 +5,14 @@ hideButton = document.getElementById("hideButton1");
 firstList = document.getElementById("firstList");
 
 liLinks = document.querySelectorAll("ul#firstList a");
-console.log(liLinks[1].textContent);
+console.log(liLinks.length);
+
 function linkOpen() {
-	firstList.value;	
-	}
+	for (var i = 0; i < liLinks.length; i++) {
+		console.log(i);
+		window.open(liLinks[i].href);
+	}	
+}
 
 function linkHide() {
 	if (firstList.className == "") {
@@ -18,4 +22,5 @@ function linkHide() {
 	}
 }
 
+openButton.addEventListener("click", linkOpen, false);
 hideButton.addEventListener("click", linkHide, false);
